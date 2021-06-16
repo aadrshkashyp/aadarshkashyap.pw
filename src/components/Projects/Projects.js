@@ -1,19 +1,21 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle, SectionText } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle, SectionText, SectionSubTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 
 const Projects = () => (
   <Section nopadding id='projects'>
+    <br />
     <SectionDivider />
+
     <SectionTitle main>Projects</SectionTitle>
-    <SectionText>
+    <SectionSubTitle>
       "You can do anything you set your mind to.""
       <br />
       - Benjamin Franklin
-    </SectionText>
+    </SectionSubTitle>
     <GridContainer>
       {projects.map(({ id, image, title, description, tags, source, visit }) => (
         <BlogCard key={id}>
@@ -39,11 +41,10 @@ const Projects = () => (
           </UtilityList>
         </BlogCard>
 
-
       ))}
 
     </GridContainer>
-
+    <br />
   </Section>
 );
 
