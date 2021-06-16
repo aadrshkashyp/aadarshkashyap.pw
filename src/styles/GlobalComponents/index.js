@@ -40,6 +40,8 @@ export const SectionCenter = styled.section`
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
     flex-direction: column;
+
+    
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {

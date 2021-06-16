@@ -8,11 +8,9 @@ import { projects } from '../../constants/constants';
 const Projects = () => (
   <Section nopadding id='projects'>
     <br />
-    <SectionDivider />
-
     <SectionTitle main>Projects</SectionTitle>
     <SectionSubTitle>
-      "You can do anything you set your mind to.""
+      "You can do anything you set your mind to."
       <br />
       - Benjamin Franklin
     </SectionSubTitle>
