@@ -1,7 +1,8 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle, SectionText, SectionSubTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle, SectionText, SectionSubTitle, SecondaryBtnCenter, SectionCenter } from '../../styles/GlobalComponents';
+import Button from '../../styles/GlobalComponents/Button';
 import { projects } from '../../constants/constants';
 
 
@@ -41,8 +42,12 @@ const Projects = () => (
 
       ))}
 
+
     </GridContainer>
     <br />
+    <SectionCenter>
+      <SecondaryBtnCenter onClick={() => location.href = "https://aadarshkashyap/projects"}>Browse other Projects</SecondaryBtnCenter>
+    </SectionCenter>
   </Section>
 );
 
