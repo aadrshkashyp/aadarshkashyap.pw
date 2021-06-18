@@ -26,13 +26,13 @@ const Footer = () => {
           <SloganSub>― Albert Einstein</SloganSub>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://github.com/aadrshkashyp">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.linkedin.com/in/aadarsh--kashyap/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.instagram.com/aadrshkashyp/">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>

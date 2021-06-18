@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle, SectionSubTitle, SectionCenter, SectionTextCenter } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionText, SectionTitle, SectionSubTitle, SectionCenter, SectionTextCenter, SectionSubTitleCenter } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -43,15 +43,14 @@ const Timeline = () => {
   return (
     <SectionCenter id="about">
       <SectionTitle>About Me</SectionTitle>
-      <SectionSubTitle>Improving Myself
-        1% Everyday</SectionSubTitle>
+      <SectionSubTitleCenter>Improving Myself 1% Everyday</SectionSubTitleCenter>
       <SectionTextCenter>
         I'm a WordPress developer with a strong history in website management and development. Expert in all aspects of WordPress website creation, including design, plug-ins, SEO, optimization, and Website Hosting implementation. Skilled in creating engaging and interactive websites.
 
         I also have Frontend Coding and Graphic Designing capabilities which I usually do by using web search or collaborate with developers directly, that's a fun thing for me.
       </SectionTextCenter>
 
-
+      <br />
 
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -97,12 +96,14 @@ const Timeline = () => {
                     </defs>
                   </CarouselItemImg>
                 </CarouselItemTitle>
+
                 <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
             </CarouselMobileScrollNode>
           ))}
         </>
       </CarouselContainer>
+      <br />
       <CarouselButtons>
         {TimeLineData.map((item, index) => {
           return (
@@ -117,6 +118,7 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
+      <br />
       <SectionDivider />
     </SectionCenter>
   );
