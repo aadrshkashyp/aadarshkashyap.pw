@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Analytique.pro',
-    description: "This is a Simple & Comfortable Analytics System that constantly tracks and analyzes users' website data to learn more about their visitors and preferences, and I had created this awesome front-end using WordPress for a client with a custom theme, Photoshop (for graphics), and I also optimized it for super performance.",
+    description: "This is a Simple & Comfortable Analytics System that constantly tracks and analyzes users' website data to learn more about their visitors and preferences, and I customized this awesome front-end using WordPress for a client with a PreBuilt theme, Elementor, Photoshop (for graphics), and I also optimized it for super performance.",
     image: '/images/analytics.gif',
     tags: ['Wordpress', 'Elementor', 'Web Optimization'],
     visit: 'https://analytique.pro/',
