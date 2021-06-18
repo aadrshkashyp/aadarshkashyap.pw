@@ -19,7 +19,7 @@ export const projects = [
 
   {
     title: 'Vivrat Shopping',
-    description: "I had created this awesome E-commerce using PreBuilt WooCommerce Theme for a client with Elementor and I also optimized it for super performance it has over 100+ products in it and it still loads faster than other WP E-commerce website.",
+    description: "I had created this E-commerce using PreBuilt WooCommerce Theme for a client with Elementor and I also optimized it for super performance it has over 100+ products in it and it still loads faster than other WP E-commerce website.",
     image: '/images/vivrat.gif',
     tags: ['WooCommerce', 'Elementor', 'Web Optimization'],
     visit: 'https://vivratshopping.com/',
