@@ -102,10 +102,6 @@ const Technologies = () => (
           <ListTitle>WordPress</ListTitle>
         </ListContainer>
       </ListItem>
-
-
-
-
     </List>
   </Section>
 );

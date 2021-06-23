@@ -3,6 +3,7 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection, RightSection } from './HeroStyles';
+import Popup from 'reactjs-popup';
 
 const Hero = (props) => (
   <Section row nopadding>
