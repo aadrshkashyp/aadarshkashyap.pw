@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillCodepenCircle } from 'react-icons/ai';
 import { SiAircall } from "react-icons/si";
 
 
@@ -41,6 +41,9 @@ const Header = () => (
       </SocialIcons>
       <SocialIcons href="https://www.instagram.com/aadrshkashyp/">
         <AiFillInstagram size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://codepen.io/aadrshkashyp">
+        <AiFillCodepenCircle size="3rem" />
       </SocialIcons>
     </Div3>
 

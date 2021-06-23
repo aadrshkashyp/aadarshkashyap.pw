@@ -43,6 +43,8 @@ export const LinkItem = styled.a`
 	}
 `
 
+
+
 export const SocialIconsContainer = styled.div`
 max-width: 1040px;
 display: flex;
@@ -176,4 +178,16 @@ export const LinkTitle = styled.h4`
 		line-height: 12px;
 		margin-bottom: 8px;
 	}
+`
+
+export const LinkColumnEnd = styled.div`
+	display: flex;
+	flex-direction: column;
+	max-width: 220px;
+	width: 100%;
+	justify-content: flex-end;
+
+
+
+
 `

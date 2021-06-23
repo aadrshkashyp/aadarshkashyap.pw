@@ -4,10 +4,10 @@ import { Section, SectionDivider, SectionTitle, SectionSubTitle } from '../../st
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 20, text: 'Open Source Projects' },
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 20, text: 'Open Source Projects', link: 'https://google.com', },
+  { number: 1000, text: 'Students', link: 'https://google.com', },
+  { number: 1900, text: 'Github Followers', link: 'https://google.com', },
+  { number: 5000, text: 'Github Stars', link: 'https://google.com', }
 ];
 
 const Acomplishments = () => (
@@ -20,7 +20,7 @@ const Acomplishments = () => (
       - Albert Einstein
     </SectionSubTitle>
     <Boxes>
-      {data.map((card, index) => (
+      {data.map((card, index, link) => (
         <Box key={index}>
           <BoxNum>{`${card.number}+`}</BoxNum>
           <BoxText>{card.text}</BoxText>

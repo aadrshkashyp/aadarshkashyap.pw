@@ -1,6 +1,7 @@
 import React from 'react';
-import { DiCssTricks, DiFirebase, DiHeroku, DiMongodb, DiMysql, DiNodejs, DiReact, DiZend, DiHtml5, DiPhotoshop, DiPhp, DiCss3, DiJavascript } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle, SectionSubTitle } from '../../styles/GlobalComponents';
+import { DiCssTricks, DiFirebase, DiHeroku, DiMongodb, DiMysql, DiNodejs, DiReact, DiZend, DiHtml5, DiPhotoshop, DiPhp, DiCss3, DiJavascript, DiBootstrap, tailwind, DiWordpress, } from 'react-icons/di';
+import { SiTailwindcss, SiWoocommerce } from 'react-icons/si';
+import { Section, SectionDivider, SectionText, SectionTitle, SectionSubTitle, SectionCenter } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () => (
@@ -11,53 +12,59 @@ const Technologies = () => (
     <SectionSubTitle>      "Life without knowledge is death in disguise."
       <br />
       - Talib Kweli</SectionSubTitle>
+
+
+    <SectionCenter><SectionSubTitle> Front-End Technologies</SectionSubTitle></SectionCenter>
     <List>
       <ListItem>
         <DiReact size="5rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>React</ListTitle>
           <ListParagraph>
-            React is an open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
+            React is an open-source front-end library licensed and released under MIT in 2013. React is probably the most used front-end technology and has greatly improved with every update.
           </ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <DiMysql size="5rem" />
+        <DiBootstrap size="5rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Bootstrap</ListTitle>
           <ListParagraph>
-            React is an open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
+            Bootstrap, as a front-end development framework, allows websites to be highly responsive with its fluid grid layout and gives a mobile-ready platform perfect for all the devices.
           </ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <DiCss3 size="5rem" />
+        <SiTailwindcss size="5rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Tailwind</ListTitle>
           <ListParagraph>
-            React is an open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
+            Tailwind CSS is a highly customizable CSS framework. Tailwind CSS framework is easy to learn and the developers can work faster as it provides all the tools required to build any custom CSS.
           </ListParagraph>
         </ListContainer>
       </ListItem>
+    </List>
 
-      <ListItem>
-        <DiHtml5 size="5rem" />
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            React is an open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-
+    <SectionCenter><SectionSubTitle> Back-End Technologies</SectionSubTitle></SectionCenter>
+    <List>
       <ListItem>
         <DiJavascript size="5rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>JavaScript</ListTitle>
           <ListParagraph>
-            React is an open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
+            JavaScript allows developers to use it as both front and backend technology. That’s why it is quick and easier to produce both mobile and web applications with this scripting language.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiPhp size="5rem" />
+        <ListContainer>
+          <ListTitle>PHP & Lavarel</ListTitle>
+          <ListParagraph>
+            This open-source backend technology is commonly used for websites. Around 79.1% of websites on the internet use PHP as server-side technology, according to a recent survey of W3Techs. .
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -65,22 +72,39 @@ const Technologies = () => (
       <ListItem>
         <DiNodejs size="5rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Node.js & Express</ListTitle>
           <ListParagraph>
-            React is an open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
+            Node.js is well-regarded by the development community. It is commonly known as one of the most popular web technologies. Express is widely requested among Node.js backend developers.
           </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+
+    <SectionCenter><SectionSubTitle> Other Technologies</SectionSubTitle></SectionCenter>
+    <List>
+      <ListItem>
+        <DiWordpress size="5rem" />
+        <ListContainer>
+          <ListTitle>WordPress</ListTitle>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <DiHeroku size="5rem" />
+        <SiWoocommerce size="5rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            React is an open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
-          </ListParagraph>
+          <ListTitle>Woocommerce</ListTitle>
         </ListContainer>
       </ListItem>
+
+      <ListItem>
+        <DiWordpress size="5rem" />
+        <ListContainer>
+          <ListTitle>WordPress</ListTitle>
+        </ListContainer>
+      </ListItem>
+
+
+
 
     </List>
   </Section>

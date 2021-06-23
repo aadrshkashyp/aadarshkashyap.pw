@@ -46,7 +46,7 @@ const Projects = () => (
     </GridContainer>
     <br />
     <SectionCenter>
-      <SecondaryBtnCenter onClick={() => location.href = "https://aadarshkashyap/projects"}>Browse other Projects</SecondaryBtnCenter>
+      <SecondaryBtnCenter onClick={() => window.location.href = "https://aadarshkashyap/projects"}>Browse other Projects</SecondaryBtnCenter>
     </SectionCenter>
   </Section>
 );

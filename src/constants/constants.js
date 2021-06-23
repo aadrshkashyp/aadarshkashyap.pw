@@ -3,7 +3,7 @@ export const projects = [
     title: 'My Porfolio',
     description: "I created my own portfolio from start to finish using React, Node.js, Next, and Styled Components.This is a basic portfolio that covers my entire journey, projects, education, and other information.",
     image: '/images/myp.gif',
-    tags: ['Next', 'Styled Components', 'React', 'Node'],
+    tags: ['Node.js', 'Styled Components', 'React'],
     visit: 'https://aadarshkashyap.pw',
     github: 'https://github.com/aadrshkashyp/aadarshkashyap.pw',
     id: 0,
@@ -46,3 +46,4 @@ export const TimeLineData = [
   { year: 2020, text: 'Mastery with WP, Web Hosting Handling, Graphic designing and other.', },
   { year: 2021, text: 'Learning MERN stack on by taking online courses and creating projects same time.', },
 ];
+

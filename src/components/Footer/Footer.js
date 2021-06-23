@@ -1,14 +1,20 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillCodepenCircle } from 'react-icons/ai';
 
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, SloganSub } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, SloganSub, LinkColumnEnd } from './FooterStyles';
+
 
 const Footer = () => {
   return (
+
     <FooterWrapper>
+
       <LinkList>
+        <LinkColumn>
+          <img src="https://aadarshkashyap.pw/wp-content/uploads/2021/05/logo.png" />
+        </LinkColumn>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel:+917462829129">+91 7462829129</LinkItem>
@@ -36,8 +42,12 @@ const Footer = () => {
           <SocialIcons href="https://www.instagram.com/aadrshkashyp/">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
+          <SocialIcons href="https://codepen.io/aadrshkashyp">
+            <AiFillCodepenCircle size="3rem" />
+          </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
+
     </FooterWrapper >
   );
 };
