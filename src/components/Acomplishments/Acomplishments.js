@@ -4,10 +4,10 @@ import { Section, SectionDivider, SectionTitle, SectionSubTitle } from '../../st
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 20, text: 'Open Source Projects', link: 'https://google.com', },
-  { number: 1000, text: 'Students', link: 'https://google.com', },
-  { number: 1900, text: 'Github Followers', link: 'https://google.com', },
-  { number: 5000, text: 'Github Stars', link: 'https://google.com', }
+  { number: 10, text: 'Open Source Projects', link: 'https://github.com/aadrshkashyp?tab=repositories', },
+  { number: '10K', text: 'Lines Coded', link: '#', },
+  { number: '750', text: 'Clients Served ', link: '#', },
+  { number: '5000', text: 'Knowledge Contribution in Online Communities', link: '#', }
 ];
 
 const Acomplishments = () => (

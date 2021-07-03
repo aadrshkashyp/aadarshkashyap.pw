@@ -1,12 +1,31 @@
 export const projects = [
   {
+    title: 'StarBucks.com',
+    description: "I created a clone of Starbucks.com from scratch using only HTML and CSS.This is a only front-end of starbucks.",
+    image: '/images/starbucks.gif',
+    tags: ['Front-End', 'HTML5', 'CSS'],
+    visit: 'https://aadarshkashyap.pw/akprojects/starbucks-com-front-end/',
+    github: 'https://github.com/aadrshkashyp/starbuck-clone',
+    id: 0,
+  },
+  {
+    title: 'Discord.com',
+    description: "I created a clone of discord.com from scratch using only HTML and CSS.This is a only front-end of discord.",
+    image: '/images/discord.gif',
+    tags: ['Front-End', 'HTML5', 'CSS'],
+    visit: 'https://aadarshkashyap.pw/akprojects/discord-front-end/',
+    github: 'https://github.com/aadrshkashyp/discord-clone',
+    id: 1,
+  },
+
+  {
     title: 'My Porfolio',
     description: "I created my own portfolio from start to finish using React, Node.js, Next, and Styled Components.This is a basic portfolio that covers my entire journey, projects, education, and other information.",
     image: '/images/myp.gif',
     tags: ['Node.js', 'Styled Components', 'React'],
     visit: 'https://aadarshkashyap.pw',
     github: 'https://github.com/aadrshkashyp/aadarshkashyap.pw',
-    id: 0,
+    id: 2,
   },
   {
     title: 'Analytique.pro',
@@ -14,7 +33,7 @@ export const projects = [
     image: '/images/analytics.gif',
     tags: ['Wordpress', 'Elementor', 'Web Optimization'],
     visit: 'https://analytique.pro/',
-    id: 1,
+    id: 3,
   },
 
   {
@@ -23,7 +42,7 @@ export const projects = [
     image: '/images/vivrat.gif',
     tags: ['WooCommerce', 'Elementor', 'Web Optimization'],
     visit: 'https://vivratshopping.com/',
-    id: 2,
+    id: 4,
   },
 
   {
@@ -32,8 +51,10 @@ export const projects = [
     image: '/images/ason.gif',
     tags: ['WPbakery', 'Elementor', 'Web Optimization'],
     visit: 'https://vivratshopping.com/',
-    id: 3,
+    id: 5,
   },
+
+  
 
 ];
 

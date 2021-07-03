@@ -1,7 +1,8 @@
 import React from 'react';
 import { DiCssTricks, DiFirebase, DiHeroku, DiMongodb, DiMysql, DiNodejs, DiReact, DiZend, DiHtml5, DiPhotoshop, DiPhp, DiCss3, DiJavascript, DiBootstrap, tailwind, DiWordpress, } from 'react-icons/di';
-import { SiTailwindcss, SiWoocommerce } from 'react-icons/si';
-import { Section, SectionDivider, SectionText, SectionTitle, SectionSubTitle, SectionCenter } from '../../styles/GlobalComponents';
+import { GiSpeedometer, } from 'react-icons/gi';
+import { SiTailwindcss, SiWoocommerce, SiPlesk, SiCpanel, SiDigitalocean, SiFigma, SiAdobepremiere, SiAmazonaws, SiVisualstudiocode, SiJetbrains  } from 'react-icons/si';
+import { Section, SectionDivider, SectionText, SectionTitle, SectionSubTitle, SectionCenter, } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () => (
@@ -80,7 +81,7 @@ const Technologies = () => (
       </ListItem>
     </List>
 
-    <SectionCenter><SectionSubTitle> Other Technologies</SectionSubTitle></SectionCenter>
+    <SectionCenter><SectionSubTitle> Other Technologies/Software</SectionSubTitle></SectionCenter>
     <List>
       <ListItem>
         <DiWordpress size="5rem" />
@@ -97,11 +98,78 @@ const Technologies = () => (
       </ListItem>
 
       <ListItem>
-        <DiWordpress size="5rem" />
+        <GiSpeedometer size="5rem" />
         <ListContainer>
-          <ListTitle>WordPress</ListTitle>
+          <ListTitle>WP Optimization</ListTitle>
         </ListContainer>
       </ListItem>
+
+      <ListItem>
+        <SiPlesk size="5rem" />
+        <ListContainer>
+          <ListTitle>Plesk</ListTitle>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <SiCpanel size="5rem" />
+        <ListContainer>
+          <ListTitle>cPanel</ListTitle>
+        </ListContainer>
+      </ListItem>
+      
+      <ListItem>
+        <SiDigitalocean size="5rem" />
+        <ListContainer>
+          <ListTitle>Digital Ocean</ListTitle>
+        </ListContainer>
+      </ListItem>
+
+      
+
+      <ListItem>
+        <DiPhotoshop size="5rem" />
+        <ListContainer>
+          <ListTitle>Photoshop</ListTitle>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <SiFigma size="5rem" />
+        <ListContainer>
+          <ListTitle>Figma</ListTitle>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <SiAdobepremiere size="5rem" />
+        <ListContainer>
+          <ListTitle>Adobe Premiere Pro</ListTitle>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <SiAmazonaws size="5rem" />
+        <ListContainer>
+          <ListTitle>Amazon AWS</ListTitle>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <SiVisualstudiocode size="5rem" />
+        <ListContainer>
+          <ListTitle>VS Code</ListTitle>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <SiJetbrains size="5rem" />
+        <ListContainer>
+          <ListTitle>PHP Strom</ListTitle>
+        </ListContainer>
+      </ListItem>
+
+      
     </List>
   </Section>
 );
